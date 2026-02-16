@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "W+vqY70lCdQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Minol\\Documents\\SE Intern project\\project 1\\temperature-converter\\backend\\TemperatureApi\\TemperatureApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Minol\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\Minol\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
