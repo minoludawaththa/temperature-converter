@@ -31,3 +31,4 @@ C:\Users\Minol\Documents\SE Intern project\project 1\temperature-converter\backe
 C:\Users\Minol\Documents\SE Intern project\project 1\temperature-converter\backend\TemperatureApi\obj\Debug\net10.0\TemperatureApi.pdb
 C:\Users\Minol\Documents\SE Intern project\project 1\temperature-converter\backend\TemperatureApi\obj\Debug\net10.0\TemperatureApi.genruntimeconfig.cache
 C:\Users\Minol\Documents\SE Intern project\project 1\temperature-converter\backend\TemperatureApi\obj\Debug\net10.0\ref\TemperatureApi.dll
+C:\Users\Minol\Documents\SE Intern project\project 1\temperature-converter\backend\TemperatureApi\obj\Debug\net10.0\TemperatureApi.sourcelink.json

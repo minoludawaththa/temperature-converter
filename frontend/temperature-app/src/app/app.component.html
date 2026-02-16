@@ -1,0 +1,53 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      
+      <div class="card shadow">
+        <div class="card-header bg-primary text-white text-center">
+          <h3>🌡️ Temperature Converter</h3>
+        </div>
+        
+        <div class="card-body">
+          <div class="mb-3">
+            <label class="form-label">Enter Temperature:</label>
+            <input type="number" [(ngModel)]="temperatureValue" (ngModelChange)="temperatureValue = $event" class="form-control" placeholder="0">
+          </div>
+
+          <div class="row">
+            <div class="col-6 mb-3">
+              <label class="form-label">From:</label>
+              <select [(ngModel)]="fromUnit" (ngModelChange)="fromUnit = $event" class="form-select">
+                <option value="C">Celsius (°C)</option>
+                <option value="F">Fahrenheit (°F)</option>
+                <option value="K">Kelvin (K)</option>
+              </select>
+            </div>
+
+            <div class="col-6 mb-3">
+              <label class="form-label">To:</label>
+              <select [(ngModel)]="toUnit" (ngModelChange)="toUnit = $event" class="form-select">
+                <option value="C">Celsius (°C)</option>
+                <option value="F">Fahrenheit (°F)</option>
+                <option value="K">Kelvin (K)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="d-grid gap-2">
+            <button type="button" (click)="onConvert()" class="btn btn-success btn-lg">Convert</button>
+          </div>
+
+          <div *ngIf="result !== null" class="alert alert-success mt-4 text-center">
+            <h4>Result: {{ result | number:'1.2-2' }} °{{ toUnit }}</h4>
+          </div>
+
+          <div *ngIf="errorMessage" class="alert alert-danger mt-4 text-center">
+            {{ errorMessage }}
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
